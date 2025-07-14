@@ -458,7 +458,7 @@ export default function Index() {
           </div>
 
           <div className="text-center mt-12">
-            <Button size="lg" asChild className="text-lg px-8 py-6">
+            <Button size="lg" asChild className="text-lg px-8">
               <Link href="#services">
                 Explore All Services
                 <ArrowRight className="ml-2 w-5 h-5" />
