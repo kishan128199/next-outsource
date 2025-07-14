@@ -31,14 +31,14 @@ export default function Index() {
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      image: "/images/photo-1551434678-e076c223a692.jpeg",
+      image: "/images/photo-1563986768609-322da13575f3.jpeg",
       title: "Secure & Reliable",
       description:
         "Your applications are built with security best practices and tested thoroughly before deployment.",
     },
     {
       icon: <Users className="w-6 h-6" />,
-      image: "/images/photo-1551434678-e076c223a692.jpeg",
+      image: "/images/photo-1600880292203-757bb62b4baf.jpeg",
       title: "Your Extended Team",
       description:
         "We work closely with you as if we're part of your company, understanding your goals and priorities.",
@@ -234,7 +234,7 @@ export default function Index() {
                   variant="outline"
                   size="lg"
                   asChild
-                  className="text-lg px-8 py-6"
+                  className="text-lg px-8 py-6 border-primary hover:border-primary hover:!text-white  hover:text-primary hover:bg-primary bg-transparent"
                 >
                   <Link href="#services">View Our Services</Link>
                 </Button>
@@ -667,7 +667,7 @@ export default function Index() {
               variant="outline"
               size="lg"
               asChild
-              className="group text-lg px-10 py-6 border-primary/30 hover:border-primary hover:bg-primary/5 shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+              className="group text-lg px-10 py-6 border-primary hover:border-primary text-primary  hover:text-primary bg-transparent hover:bg-transparent shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               <Link href="#contact">
                 <span className="flex items-center">
