@@ -572,7 +572,7 @@ export default function Index() {
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" asChild className="text-lg px-8 py-4">
+              <Button size="lg" asChild className="text-lg px-8">
                 <Link href="#contact">
                   Start Your Project
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -582,7 +582,7 @@ export default function Index() {
                 variant="outline"
                 size="lg"
                 asChild
-                className="text-lg px-8 py-4"
+                className="text-lg px-8"
               >
                 <Link href="#services">View Our Process</Link>
               </Button>
