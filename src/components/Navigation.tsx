@@ -120,7 +120,7 @@ const Navigation = () => {
                   width: isExpanded ? "auto" : "0px",
                 }}
               >
-                {navItems.map(item => (
+                {navItems.map((item) => (
                   <Link
                     key={item.name}
                     href={item.path}
@@ -146,7 +146,7 @@ const Navigation = () => {
             }`}
           >
             <div className="whitespace-nowrap">
-              <Button asChild className="rounded-full px-6 py-3">
+              <Button asChild size="lg" className="rounded-full px-6">
                 <Link href="/quote">Request a Quote</Link>
               </Button>
             </div>
@@ -169,7 +169,7 @@ const Navigation = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {navItems.map(item => (
+            {navItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.path}
@@ -184,7 +184,7 @@ const Navigation = () => {
               </Link>
             ))}
             <div className="px-3 py-2">
-              <Button asChild className="w-full rounded-full">
+              <Button asChild size="lg" className="w-full rounded-full">
                 <Link href="/quote" onClick={() => setIsMenuOpen(false)}>
                   Request a Quote
                 </Link>
