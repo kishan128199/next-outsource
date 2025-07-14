@@ -653,7 +653,7 @@ export default function Index() {
             <Button
               size="lg"
               asChild
-              className="group text-lg px-10 py-6 bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+              className="group text-lg px-10 bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               <Link href="#quote">
                 <span className="flex items-center">
@@ -667,7 +667,7 @@ export default function Index() {
               variant="outline"
               size="lg"
               asChild
-              className="group text-lg px-10 py-6 border-primary hover:border-primary text-primary  hover:text-primary bg-transparent hover:bg-transparent shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+              className="group text-lg px-10 border-primary hover:border-primary text-primary  hover:text-primary bg-transparent hover:bg-transparent shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               <Link href="#contact">
                 <span className="flex items-center">
