@@ -224,7 +224,7 @@ export default function Index() {
                 software solutions while you focus on growing your company.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" asChild className="text-lg px-8 py-6">
+                <Button size="lg" asChild className="text-lg px-8">
                   <Link href="#contact">
                     Contact Us
                     <ArrowRight className="ml-2 w-5 h-5" />
@@ -234,7 +234,7 @@ export default function Index() {
                   variant="outline"
                   size="lg"
                   asChild
-                  className="text-lg px-8 py-6 border-primary hover:border-primary hover:!text-white  hover:text-primary hover:bg-primary bg-transparent"
+                  className="text-lg px-8 border-primary hover:border-primary hover:!text-white  hover:text-primary hover:bg-primary bg-transparent"
                 >
                   <Link href="#services">View Our Services</Link>
                 </Button>
