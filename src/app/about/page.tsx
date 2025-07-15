@@ -157,7 +157,7 @@ export default function About() {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-3xl blur-xl opacity-75"></div>
               <Image
-                src="/images/photo-1522202176988-66273c2fd55f.jpeg"
+                src="/images/team-collaborative.jpg"
                 alt="TechFlow team collaborating on innovative solutions"
                 width={600}
                 height={400}
