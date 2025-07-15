@@ -45,7 +45,7 @@ export default function Services() {
         "Django",
         "Figma",
       ],
-      image: "/images/be,jpg",
+      image: "/images/be.jpg",
       accent: "from-primary to-primary/80",
     },
     {
